@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(221, 249, 221);
+}
+
+.first{
+    display: flex;
+    border: double 5px rgb(7, 2, 88);
+    border-radius: 10px;
+    padding: 5px;
+    height: 100%;
+    background-color: gainsboro;
+}
+
+.User_control{
+    margin-right: 10px;
+    padding: 10px;
+    border: dotted 2px black;
+    border-radius: 5px;
+    width: 100;
+    background-color: azure;
+}
+
+
+.TODOS{
+    margin-right: 10px;
+    padding: 10px;
+    border: dotted 2px black;
+    border-radius: 5px;
+    height: 550px;
+    width: 500px;
+    background-color: azure;
+}
+
+.One_ID{
+    margin-right: 10px;
+    padding: 10px;
+    border: dotted 2px black;
+    border-radius: 5px;
+    width: 250px;
+    background-color: azure;
+}
+.DELETE_ID{
+    margin-right: 10px;
+    padding: 10px;
+    border: dotted 2px black;
+    border-radius: 5px;
+    width: 250px;
+    background-color: azure;
+}
+.UPDATE_ID{
+    margin-right: 10px;
+    padding: 10px;
+    border: dotted 2px black;
+    border-radius: 5px;
+    width: 250px;
+    background-color: azure;
+}
+
+.keyValueTable {
+    border-collapse: collapse;
+}
+
+.keyValueTable td {
+    padding: 8px;
+}
+
+.keyValueTable .key {
+    font-weight: bold;
+    text-align: left;
+    padding-right: 10px;
+}

@@ -1,0 +1,62 @@
+    <!DOCTYPE HTML>
+
+    <html>
+        <head>
+            <title>TODO SERVER</title>
+            <script src="script.js" type="text/javascript"></script>
+            <link rel="stylesheet" href="style.css" type="text/css">
+        </head>
+        <body>
+            <section class="first">
+                <section class="User_control">
+                    <h1><i>TODO SERVER</i></h1>
+                    <input type="text" class="Input_Box" id="title" placeholder="Title"><br><br>
+                    
+                    <input type="text" class="Input_Box" id="description" placeholder="Description"><br><br>
+                    
+
+                    <label>Is Completed?</label><br>
+                    <input type="radio" id="completedTrue" name="completed" value="true" class="Input_Box">
+                    <label for="completedTrue">True</label><br>
+                    <input type="radio" id="completedFalse" name="completed" value="false" class="Input_Box">
+                    <label for="completedFalse">False</label><br><br>
+
+                    <button onclick="add_new_todo()" type="submit">ADD NEW TODO</button><br><br>
+                    <div id="added_message"></div>
+                    
+                </section>
+                <section class="TODOS">
+                    <button onclick="display_all_todos()" type="submit">DISPLAY ALL TODO</button><br><br>
+                    <div id="display_todos""></div>
+                </section>
+                <section class="One_ID">
+                    <input type="text" class="Input_Box" id="give_id" placeholder="ID TO FIND"><br><br>
+                    <button onclick="retrieve_one_item()" type="submit">RETRIEVE ONE ITEM</button><br><br>
+                    <div id="retrieve_one_item_id"></div>
+                </section>
+                <section class="DELETE_ID">
+                    <input type="text" class="Input_Box" id="delete_id" placeholder="ID TO DELETE"><br><br>
+                    <button onclick="delete_todo()" type="submit">DELETE</button><br><br>
+                    <div id="delete_message"></div>
+                </section>
+                <section class="UPDATE_ID">
+                    <input type="text" class="Input_Box" id="give_update_id" placeholder="ID TO UPDATE"><br><br>
+                    <input type="text" class="Input_Box" id="updated_title" placeholder="New Title"><br><br>
+                    
+                    <input type="text" class="Input_Box" id="updated_description" placeholder="New Description"><br><br>
+                    
+
+                    <label>Is Completed?</label><br>
+                    <input type="radio" id="updated_completedTrue" name="completed" value="true" class="Input_Box">
+                    <label for="updated_completedTrue">True</label><br>
+                    <input type="radio" id="updated_completedFalse" name="completed" value="false" class="Input_Box">
+                    <label for="updated_completedFalse">False</label><br><br>
+
+
+
+                    <button onclick="update_todo()" type="submit">UPDATE</button><br><br>
+                    <div id="update_message"></div>
+                </section>
+            </section>
+        </body>
+    </html>
