@@ -4,13 +4,7 @@
 
 This TODO Server is a simple web application designed to manage a list of tasks. It provides functionality for creating, updating, deleting, and retrieving TODO items. The server is built using Express.js and uses a JSON file to store data. The frontend is created using HTML, CSS, and JavaScript, allowing users to interact with the server through a web interface.
 
-## Features
-
-- **Add a new TODO item**: Users can create new tasks with a title, description, and completion status.
-- **Display all TODO items**: Users can view all existing tasks.
-- **Retrieve a single TODO item by ID**: Users can find a specific task by its ID.
-- **Update a TODO item**: Users can modify the title, description, and completion status of an existing task.
-- **Delete a TODO item**: Users can remove a task by its ID.
+![TODO Server Screenshot](image.png)
 
 ## Project Structure
 
